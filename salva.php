@@ -12,4 +12,18 @@ $concletizacao = mysqli_query($conn, $inserirdados);
 header('Location:index.php');
 
 
- ?>
+$from = $email;
+
+$to = "recantobelavista445@gmail.com";
+
+$subject = "<strong>Novo usuario Cadastrado</strong>";
+
+$message = 'Nome:$nome<br>
+data:$$data<br>
+Feedback:$msg';
+
+$headers = "De:". $from;
+
+mail($to, $subject, $message, $headers);
+
+?>
