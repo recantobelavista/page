@@ -7,11 +7,6 @@ $email = $_POST['email'];
 $data = $_POST['data'];
 $msg = $_POST['msg'];
 
-$inserirdados = "INSERT INTO feedback(nome, email, data, msg) VALUES('$nome','$email','$data','$msg')";
-$concletizacao = mysqli_query($conn, $inserirdados);
-header('Location:index.php');
-
-
 $from = $email;
 
 $to = "recantobelavista445@gmail.com";
