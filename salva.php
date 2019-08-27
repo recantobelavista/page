@@ -2,10 +2,10 @@
 
 
 #include_once('conect.php') ;
-$nome = $_POST['nome'];
-$email = $_POST['email'];
-$data = $_POST['data'];
-$msg = $_POST['msg'];
+$nome = $_GET['nome'];
+$email = $_GET['email'];
+$data = $_GET['data'];
+$msg = $_GET['msg'];
 
 $from = $email;
 
