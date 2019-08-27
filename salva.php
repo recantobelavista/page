@@ -1,7 +1,7 @@
 <?php
 
 
-include_once('conect.php') ;
+#include_once('conect.php') ;
 $nome = $_POST['nome'];
 $email = $_POST['email'];
 $data = $_POST['data'];
