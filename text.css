@@ -1,0 +1,172 @@
+
+ #form {
+   margin-top: 400px;
+ }
+
+ #topo{
+   background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz0Rh1Vl9V6HF2D7n5YcBWGgTdUYS6YNQXYMpVJaoz_QFPY9x7Ow");
+   margin-top: -20px;
+
+
+ }
+#titulo{
+  margin-left:270px;
+  font-style: italic;
+  color: Black;
+  font-family:allegro;
+  text-align: center;
+  font-size:60px;
+
+}
+
+#logo{
+  opacity: 0.2;
+  margin-left: 260px;
+  margin-top: 0%;
+  font-style: italic;
+  font-family:inherit;
+  text-align: center;
+
+
+
+}
+
+#text1:first-child{
+  content: "";
+
+
+
+}
+
+
+#text1{
+  margin-top:20%;
+  border: solid 2px black;
+  border-radius: 5px;
+  padding: 3%;
+  margin-right: 55%;
+  position: absolute;
+  margin-left: 5%;
+  font-size:35px;
+
+
+
+}
+  #text2 {
+    margin-top: 12%;
+    border: solid 2px black;
+    border-radius: 5px;
+    padding: 3%;
+    margin-left:55%;
+    margin-right: 5%;
+    position:absolute;
+    font-size:35px;
+}
+
+#text2 input{
+  margin-top: 45px;
+}
+
+#text3 {
+  margin-top:1400px;
+  border: solid 2px black;
+  border-radius: 5px;
+  padding: 3%;
+  margin-right: 55%;
+  position:absolute;
+  margin-left: 5%;
+  font-size:35px;
+
+}
+
+#text3 h4{
+  margin-bottom: 30px;
+}
+  #text4 {
+    margin-top: 1400px;
+    border: solid 2px black;
+    border-radius: 5px;
+    padding: 3%;
+    margin-left:55%;
+    margin-right: 0px;
+    position:absolute;
+      margin-right: 5%;
+      font-size:35px;
+
+  }
+  #text4 h4{
+    margin-bottom: 30px;
+}
+
+#botao {
+  border-radius: 3px;
+  border: black;
+  background:#3498db;
+  color: white;
+  /* border: 1; */
+  height: 25px;
+  width: 100px;
+  margin-top: 10px;
+  cursor:pointer;
+  display: block;
+  text-decoration: none;
+  decoration:none;
+
+  /* position: relative; */
+
+}
+
+#botao a {
+  color:white;
+}
+
+#subtitle1{
+  top:1200px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  position: relative;
+  font-family: sans-serif;
+}
+#subtitle1:after{
+  content: "";
+  border-bottom: solid 5px #08088A;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+
+}
+
+#subtitle2{
+  top:2200px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  position: relative;
+  font-family: sans-serif;
+}
+#subtitle2:after{
+  content: "";
+  border-bottom: solid 5px #08088A;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  }
+
+  .download {
+	  top:3300px;
+  }
+
+#footer{
+  margin-top:2850px;
+  margin-left: 41%;
+  text-align: center;
+  position: absolute;
+  color: white;
+  background-color: black;
+  padding: 1%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
