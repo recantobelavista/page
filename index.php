@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE html>
 <html lang="pt-br" dir="ltr">
   <head>
@@ -108,7 +110,7 @@ Na virada do ano de 2019 para 2020,o Rescanto Bela Vista se reponsabilizará em 
 <div id="tudo-formulario">
 <div id="formulario">
 
-    <form method="GET" action="salva.php" id='form'>
+    <form method="get" action="salva.php" id='form'>
 
 Nome: <input id="nome" type="text" name="nome" placeholder="Nome" required><br />
 Email: <input type="email" name="email" placeholder="Email" required /><br />
